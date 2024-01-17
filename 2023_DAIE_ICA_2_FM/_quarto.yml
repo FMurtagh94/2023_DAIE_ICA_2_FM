@@ -9,6 +9,8 @@ website:
         text: Index
       - href: DataView.qmd
         text: Data View
+      - href: PlotView.qmd
+        text: Plot View
 
 format:
   html:

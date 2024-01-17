@@ -1,0 +1,34 @@
+---
+title: "2023_DAIE_ICA_2_FM: Part C"
+format: html
+editor: visual
+---
+
+## Part C: Plot View
+
+{{< include common.qmd >}}
+
+```{r echo = FALSE}
+#Connect to Database
+conn <- dbConnect(RSQLite::SQLite(), "ICA_2023.sqlite")
+```
+
+## No of Assets Per Project
+```{r echo = FALSE}
+typesOfAssets <- dbGetQuery(conn, "SELECT DISTINCT(Type) AS 'Types of Assets', 
+                            COUNT(DISTINCT(AssetName)) AS 'No. of Assets' 
+                            FROM Projects JOIN Assets ON Projects.ProjectID=Assets.ProjectID
+                            GROUP BY ProjectName ORDER BY COUNT(ProjectName) DESC")
+
+x = typesOfAssets$ProjectName
+y = typesOfAssets$'No. of Assets'
+
+barplot(y, names.arg = x, col = "red")
+
+```
+
+
+```{r echo = FALSE}
+# Disonnect to Database
+dbDisconnect(conn)
+```
