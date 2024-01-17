@@ -1,0 +1,61 @@
+---
+title: "2023_DAIE_ICA_2_FM: Part C"
+format: html
+editor: visual
+---
+
+## Part C: Data View
+
+{{< include common.qmd >}}
+
+```{r echo = FALSE}
+#Connect to Database
+conn <- dbConnect(RSQLite::SQLite(), "ICA_2023.sqlite")
+```
+
+## Projects
+```{r echo = FALSE}
+proj <- dbGetQuery(conn, "SELECT * FROM Projects")
+knitr::kable(proj)
+```
+
+## Assets
+```{r echo = FALSE}
+assets <- dbGetQuery(conn, "SELECT * FROM Assets")
+knitr::kable(assets)
+```
+
+## Developers
+```{r echo = FALSE}
+devs <- dbGetQuery(conn, "SELECT * FROM Developers")
+knitr::kable(devs)
+```
+
+## Project Developers
+```{r echo = FALSE}
+pd <- dbGetQuery(conn, "SELECT * FROM ProjectDevelopers")
+knitr::kable(pd)
+```
+
+## Timelines
+```{r echo = FALSE}
+tl <- dbGetQuery(conn, "SELECT * FROM Timelines")
+knitr::kable(tl)
+```
+
+## Customers
+```{r echo = FALSE}
+cust <- dbGetQuery(conn, "SELECT * FROM Customers")
+knitr::kable(cust)
+```
+
+## Assett Developers
+```{r echo = FALSE}
+ad <- dbGetQuery(conn, "SELECT * FROM ProjectDevelopers")
+knitr::kable(ad)
+```
+
+```{r echo = FALSE}
+# Disonnect to Database
+dbDisconnect(conn)
+```

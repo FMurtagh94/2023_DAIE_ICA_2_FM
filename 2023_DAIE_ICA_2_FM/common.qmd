@@ -1,0 +1,37 @@
+```{r echo = FALSE} 
+# gives us ggplot2, dplyr, readr, tibble etc
+if(!require("tidyverse"))
+  install.packages("tidyverse")
+library(tidyverse)
+
+# interactive plots
+if(!require("plotly"))
+  #install.packages("plotly")
+  install.packages("plotly", repos = "http://cran.rstudio.com/", dependencies=TRUE)
+library(plotly)
+
+# support for color blind users - see scale_color_colorblind() below
+if(!require("ggthemes"))
+  install.packages("ggthemes")
+library(ggthemes)
+
+# allows paginated tables
+if(!require("DT"))
+  install.packages("DT")
+library(DT)
+
+#data manipulation
+if(!require("dplyr"))
+  install.packages("dplyr")
+library(dplyr)
+
+#allows to connect to database
+if(!require("DBI"))
+  install.packages("DBI")
+library(DBI)
+
+if(!require("RSQLite"))
+  install.packages("RSQLite")
+library(RSQLite)
+
+```

@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#quarto",
+    "href": "index.html#quarto",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "common.html",
+    "href": "common.html",
+    "title": "2023_DAIE_ICA_2_FM",
+    "section": "",
+    "text": "Loading required package: tidyverse\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nLoading required package: plotly\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n\nLoading required package: ggthemes\n\nLoading required package: DT\n\nLoading required package: DBI\n\nLoading required package: RSQLite"
+  },
+  {
+    "objectID": "DataView.html",
+    "href": "DataView.html",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "",
+    "text": "Loading required package: tidyverse\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nLoading required package: plotly\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n\nLoading required package: ggthemes\n\nLoading required package: DT\n\nLoading required package: DBI\n\nLoading required package: RSQLite"
+  },
+  {
+    "objectID": "DataView.html#part-c-interactive-shiny-application-using-quarto-dashboard",
+    "href": "DataView.html#part-c-interactive-shiny-application-using-quarto-dashboard",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "",
+    "text": "Loading required package: tidyverse\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nLoading required package: plotly\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n\nLoading required package: ggthemes\n\nLoading required package: DT\n\nLoading required package: DBI\n\nLoading required package: RSQLite"
+  },
+  {
+    "objectID": "DataView.html#projects",
+    "href": "DataView.html#projects",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "Projects",
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjectID\nProjectName\nStartDate\nEndDate\nBudget\nStatus\nCustomerID\n\n\n\n\n101\nGalaxy Quest\n2021-01-01\n2021-09-30\n100000\nCompleted\n1\n\n\n102\nMystic Realms\n2021-10-01\n2021-12-31\n200000\nCompleted\n2\n\n\n103\nShadow Legacy\n2022-01-01\n2022-09-30\n150000\nCompleted\n3\n\n\n104\nUrban Adventure\n2022-10-01\n2023-02-31\n250000\nCompleted\n4\n\n\n105\nOcean Odyssey\n2023-03-01\n2024-06-30\n300000\nIn Progress\n5\n\n\n106\nDesert Survival\n2024-07-01\n2024-12-31\n350000\nPlanned\n6\n\n\n107\nFrozen Frontier\n2025-01-01\n2025-06-30\n400000\nPlanned\n7\n\n\n108\nCybernetic Dreams\n2025-07-01\n2025-12-31\n450000\nPlanned\n8"
+  },
+  {
+    "objectID": "DataView.html#assets",
+    "href": "DataView.html#assets",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "Assets",
+    "text": "Assets\n\n\n\n\n\nAssetID\nProjectID\nAssetName\nType\nCreationDate\n\n\n\n\n1\n102\nAsset 1\nLevel Design\n2021-02-15\n\n\n2\n103\nAsset 2\nCinematic\n2021-03-15\n\n\n3\n104\nAsset 3\n3D Model\n2021-04-15\n\n\n4\n101\nAsset 4\nGameplay Script\n2021-05-15\n\n\n5\n102\nAsset 5\nEnvironment Design\n2021-06-15\n\n\n6\n103\nAsset 6\nLevel Design\n2021-01-15\n\n\n7\n104\nAsset 7\nTexture\n2021-02-15\n\n\n8\n101\nAsset 8\nCinematic\n2021-03-15\n\n\n9\n102\nAsset 9\nTexture\n2021-04-15\n\n\n10\n103\nAsset 10\nEnvironment Design\n2021-05-15\n\n\n11\n104\nAsset 11\nSound\n2021-06-15\n\n\n12\n101\nAsset 12\nEnvironment Design\n2021-01-15\n\n\n13\n102\nAsset 13\nGameplay Script\n2021-02-15\n\n\n14\n103\nAsset 14\nTexture\n2021-03-15\n\n\n15\n104\nAsset 15\nAnimation\n2021-04-15\n\n\n16\n101\nAsset 16\nCinematic\n2021-05-15\n\n\n17\n102\nAsset 17\nAnimation\n2021-06-15\n\n\n18\n103\nAsset 18\n3D Model\n2021-01-15\n\n\n19\n104\nAsset 19\nTexture\n2021-02-15\n\n\n20\n101\nAsset 20\nGameplay Script\n2021-03-15\n\n\n21\n102\nAsset 21\nCharacter Model\n2021-04-15\n\n\n22\n103\nAsset 22\nLevel Design\n2021-05-15\n\n\n23\n104\nAsset 23\nEnvironment Design\n2021-06-15\n\n\n24\n101\nAsset 24\nTexture\n2021-01-15\n\n\n25\n102\nAsset 25\nCharacter Model\n2021-02-15\n\n\n26\n103\nAsset 26\nUI Element\n2021-03-15\n\n\n27\n104\nAsset 27\nUI Element\n2021-04-15\n\n\n28\n101\nAsset 28\nGameplay Script\n2021-05-15\n\n\n29\n102\nAsset 29\nCharacter Model\n2021-06-15\n\n\n30\n103\nAsset 30\nEnvironment Design\n2021-01-15\n\n\n31\n104\nAsset 31\n3D Model\n2021-02-15\n\n\n32\n101\nAsset 32\nCinematic\n2021-03-15\n\n\n33\n102\nAsset 33\nEnvironment Design\n2021-04-15\n\n\n34\n103\nAsset 34\nAnimation\n2021-05-15\n\n\n35\n104\nAsset 35\nCharacter Model\n2021-06-15\n\n\n36\n101\nAsset 36\nGameplay Script\n2021-01-15\n\n\n37\n102\nAsset 37\nGameplay Script\n2021-02-15\n\n\n38\n103\nAsset 38\nSound\n2021-03-15\n\n\n39\n104\nAsset 39\nCharacter Model\n2021-04-15\n\n\n40\n101\nAsset 40\nAnimation\n2021-05-15\n\n\n41\n102\nAsset 41\nUI Element\n2021-06-15\n\n\n42\n103\nAsset 42\nAnimation\n2021-01-15"
+  },
+  {
+    "objectID": "DataView.html#developers",
+    "href": "DataView.html#developers",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "Developers",
+    "text": "Developers\n\n\n\n\n\nDeveloperID\nName\nSpecialization\nExperienceYears\n\n\n\n\n201\nAlice Johnson\nProgrammer\n5\n\n\n202\nBob Smith\nProgrammer\n3\n\n\n203\nCarol White\nArtist\n4\n\n\n204\nDave Brown\nGame Designer\n6\n\n\n205\nEve Davis\nAnimator\n7\n\n\n206\nFrank Miller\nSound Engineer\n5\n\n\n207\nGrace Wilson\nLevel Designer\n2\n\n\n208\nHenry Moore\nUI/UX Designer\n4\n\n\n209\nIsabel Taylor\nQuality Assurance\n3\n\n\n210\nJack Martinez\nTechnical Artist\n5\n\n\n211\nKaren Garcia\nProducer\n8\n\n\n212\nLuis Hernandez\nWriter\n6\n\n\n213\nMorgan Lee\nProject Manager\n10\n\n\n214\nJordan Kim\nProject Manager\n8"
+  },
+  {
+    "objectID": "DataView.html#project-developers",
+    "href": "DataView.html#project-developers",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "Project Developers",
+    "text": "Project Developers\n\n\n\n\n\nProjectID\nDeveloperID\nRole\n\n\n\n\n101\n214\nLead\n\n\n102\n213\nLead\n\n\n103\n201\nLead\n\n\n104\n213\nLead\n\n\n105\n214\nLead\n\n\n106\n211\nLead\n\n\n107\n214\nLead\n\n\n108\n211\nLead"
+  },
+  {
+    "objectID": "DataView.html#timelines",
+    "href": "DataView.html#timelines",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "Timelines",
+    "text": "Timelines\n\n\n\n\n\n\n\n\n\n\n\n\nTimelineID\nProjectID\nMilestone\nExpectedCompletionDate\nActualCompletionDate\n\n\n\n\n1\n101\nBeta Release\n2021-01-15\n2021-01-14\n\n\n2\n102\nBeta Release\n2021-07-15\n2021-07-14\n\n\n3\n103\nBeta Release\n2022-03-15\n2022-03-14\n\n\n4\n104\nBeta Release\n2022-10-15\n2022-10-14\n\n\n5\n105\nBeta Release\n2023-03-01\nNA\n\n\n6\n106\nPre-production\n2023-10-01\nNA\n\n\n7\n107\nProject Planning\n2024-03-01\nNA\n\n\n8\n108\nProject Planning\n2024-10-01\nNA"
+  },
+  {
+    "objectID": "DataView.html#customers",
+    "href": "DataView.html#customers",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "Customers",
+    "text": "Customers\n\n\n\n\n\nCustomerID\nCustomerName\nCustomerCity\nCustomerCountry\n\n\n\n\n1\nVertex Games\nLondon\nUK\n\n\n2\nEclipse Entertainment\nParis\nFrance\n\n\n3\nAurora Studios\nBerlin\nGermany\n\n\n4\nNebula Creations\nRome\nItaly\n\n\n5\nCosmic Interactive\nMadrid\nSpain\n\n\n6\nGalactic Games\nBarcelona\nSpain\n\n\n7\nNova Software\nAmsterdam\nNetherlands\n\n\n8\nInfinity Designs\nEdinburgh\nUK"
+  },
+  {
+    "objectID": "DataView.html#assett-developers",
+    "href": "DataView.html#assett-developers",
+    "title": "2023_DAIE_ICA_2_FM: Part C",
+    "section": "Assett Developers",
+    "text": "Assett Developers\n\n\n\n\n\nProjectID\nDeveloperID\nRole\n\n\n\n\n101\n214\nLead\n\n\n102\n213\nLead\n\n\n103\n201\nLead\n\n\n104\n213\nLead\n\n\n105\n214\nLead\n\n\n106\n211\nLead\n\n\n107\n214\nLead\n\n\n108\n211\nLead"
+  }
+]
